@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.audiences</OriginalElement>
+  <nodes>
+    <node x="1148.1704545454545" y="0.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.faculties</node>
+    <node x="415.0" y="819.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.audiences</node>
+    <node x="365.0" y="508.5">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.title_subjects</node>
+    <node x="360.5" y="1107.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.schedule_lessons</node>
+    <node x="797.0" y="774.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.subjects</node>
+    <node x="708.5" y="198.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups_name</node>
+    <node x="1315.0" y="198.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.departments</node>
+    <node x="0.0" y="774.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.time_ranges</node>
+    <node x="797.0" y="441.0">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups</node>
+    <node x="1294.0" y="463.5">1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.teachers</node>
+    <node x="0.0" y="1525.0">1ce7fd92-9475-4162-8459-4201da4f61a4.VIEW:schedule_db.schedule_view</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.teachers" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.departments">
+      <point x="0.0" y="-119.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.subjects" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups">
+      <point x="0.0" y="-141.5" />
+      <point x="0.0" y="141.5" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.schedule_lessons" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.subjects">
+      <point x="157.0" y="-186.5" />
+      <point x="753.0" y="1082.0" />
+      <point x="1035.5" y="1082.0" />
+      <point x="0.0" y="141.5" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.faculties">
+      <point x="119.25" y="-141.5" />
+      <point x="1154.75" y="416.0" />
+      <point x="1148.0" y="416.0" />
+      <point x="1148.0" y="173.0" />
+      <point x="1236.1704545454545" y="173.0" />
+      <point x="-88.0" y="74.0" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.schedule_lessons" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.audiences">
+      <point x="0.0" y="-186.5" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.groups_name">
+      <point x="-119.25" y="-141.5" />
+      <point x="916.25" y="416.0" />
+      <point x="923.0" y="416.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.subjects" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.teachers">
+      <point x="159.0" y="-141.5" />
+      <point x="1194.5" y="749.0" />
+      <point x="1517.0" y="749.0" />
+      <point x="0.0" y="119.0" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.departments" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.faculties">
+      <point x="0.0" y="-96.5" />
+      <point x="1517.0" y="173.0" />
+      <point x="1412.1704545454545" y="173.0" />
+      <point x="88.0" y="74.0" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.subjects" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.title_subjects">
+      <point x="-159.0" y="-141.5" />
+      <point x="876.5" y="749.0" />
+      <point x="571.0" y="749.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.schedule_lessons" target="1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.time_ranges">
+      <point x="-157.0" y="-186.5" />
+      <point x="439.0" y="1082.0" />
+      <point x="197.5" y="1082.0" />
+      <point x="0.0" y="141.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.817533129459735" x="870.0" y="971.0" />
+  <SelectedNodes>
+    <node>1ce7fd92-9475-4162-8459-4201da4f61a4.TABLE:schedule_db.audiences</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
