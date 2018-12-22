@@ -3,9 +3,6 @@ It's a simple repo that contains ER diagram with some samples of SQL queries for
 
 All files => [archive](IvankivR_Schedule.zip)
 
-PDF => [link](https://drive.google.com/open?id=1FU6Q3LKSXu1YszV9zqY7aQuHixHiywIZ)
-
-DOC => [link](https://drive.google.com/open?id=1sO-Jhg0fiiRGXu-GXMMf9aoCY9hWDwzdCe8UhmJma1U)
 ### Entity Relationship(ER) diagram
 <!--<img src="https://drive.google.com/uc?id=1qjkyKEJsQx_4vkKBW6Gzz_9eI0bWy1zI">-->
 <img src="ScheduleER.png">
